@@ -56,11 +56,18 @@
 
 <script>
 function myFunction() {
+
+  if (document.getElementById('ytlink').value == ""){
+    alert("ENTER A YOUTUBE VIDEO URL");
+  }
+  else {
   var value = document.getElementById("ytlink").value;
-  const str = value;
-  const after_ = str.substring(str.indexOf('=') + 1);
-  const valfinal = "https://www.youtubethumbnaildownloaderonline.com/?id=" + after_;
-  window.open(valfinal,'_blank');
+   const str = value;
+   const after_ = str.substring(str.indexOf('=') + 1);
+   const valfinal = "https://www.youtubethumbnaildownloaderonline.com/?id=" + after_;
+   window.open(valfinal,'_blank');
+  }
+  
 }
 </script>
 
