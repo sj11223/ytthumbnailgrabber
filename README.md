@@ -1,4 +1,4 @@
-# [YouTube Thumbnail Downloader](https://harsh98trivedi.github.io/YouTube-Thumbnail-Downloader) :fire:
+# [YouTube Thumbnail Downloader](https://youtube-thumbnail-grabber.netlify.app/) :fire:
 
 Free, Clean & Simple **YouTube Thumbnail Downloader** for you. :slightly_smiling_face: <br>
 Download **YouTube video thumbnails** with ease.<br>
