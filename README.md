@@ -6,7 +6,7 @@ This project was initially hosted on [**Firebase**](https://yt-thumbnail-downloa
 
 ---
 
-![YouTube Thumbnail Downloader](https://raw.github.com/harsh98trivedi/YouTube-Thumbnail-Downloader/master/images/meta.jpg)
+![YouTube Thumbnail Downloader]([https://raw.github.com/harsh98trivedi/YouTube-Thumbnail-Downloader/master/images/meta.jpg](https://blogger.googleusercontent.com/img/a/AVvXsEh4Js5XVfwWpYUK0O2TaK8W04Z2sel3Zgt5QBMZLumRTweSYRostsIAkTJ8_hrEje6B4GOeksyx-eG0IbnQGCKdNfc_i9EC-2CvqNR5QiBQTpC4j-R3Kb5yZNaE3Qt6O0V2UG0hwgveZvZerykJGEDsUwqOZtwwNcZzv-76Cc5E5HGeSGiPwSr2hypbsg=s1600-rw))
 
 #### Libraries Used
 
@@ -15,6 +15,6 @@ This project was initially hosted on [**Firebase**](https://yt-thumbnail-downloa
 * Bootstrap - http://getbootstrap.com/
 * jQuery - http://jquery.com/
 
-> License: [GNU General Public License v3.0](https://github.com/harsh98trivedi/YouTube-Thumbnail-Downloader/blob/master/LICENSE.md)
+> License: [GNU General Public License v3.0]()
 
 ![YouTube Thumbnail Downloader](https://img.shields.io/badge/YouTube-Thumbnail%20Downloader-green.svg)
