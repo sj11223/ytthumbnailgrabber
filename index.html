@@ -54,18 +54,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:500" rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70447982-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-70447982-2');
-    </script>
+<script>
+function myFunction() {
+  var value = document.getElementById("ytlink").value;
+  const str = value;
+  const after_ = str.substring(str.indexOf('=') + 1);
+  const valfinal = "https://www.youtubethumbnaildownloaderonline.com/?id=" + after_;
+  window.open(valfinal,'_blank');
+}
+</script>
 
 </head>
 
@@ -89,12 +86,18 @@
             <!-- INPUT AREA -->
             <br>
             <div class="input-group">
-                <input id="ytlink" autofocus type="text" class="form-control shadow"
+                <input style="width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;" id="ytlink" autofocus type="text" class="form-control shadow"
                     placeholder="ENTER A YOUTUBE VIDEO URL HERE" spellcheck="false"
                     onsubmit="youtube_thumbnail_downloader(ytlink.value);ShowMain()" autocomplete="off" />
             </div><br>
-            <button id="thumbdloadbtn" class="thumbdloadbtn site-gradient" type="button"
-                onclick="youtube_thumbnail_downloader(ytlink.value);ShowMain()">FETCH</button>
+            <button style="background-color: #white; padding:7px 20px 7px 20px;" id="thumbdloadbtn" class="thumbdloadbtn site-gradient" type="button"
+                onclick="myFunction()">FETCH</button>
             <!-- INPUT AREA -->
             
             <p>You can also download thumbnail from here: </p><a style="background-image: linear-gradient(to right,#fd7524 ,#f64c84); padding: 12px 30px 12px 30px; text-decoration: none; color:white;border-radius: 25px;" href="https://www.youtubethumbnaildownloaderonline.com">youtube thumbnail downloader</a><br></br>
@@ -108,50 +111,8 @@
                 target="_blank" href="https://youtubethumbnaildownloader.vercel.app">Jaffar</a></p>
     </footer>
 
-    <script src="js/jquery3.3.1.min.js"></script>
-    <script src="js/thumbnail.js"></script>
-
-    <script type="text/javascript">
-        // Replace source
-        $('img').error(function () {
-            $(this).attr('src', '#.png');
-        });
-
-        // Or, hide them
-        $("img").error(function () {
-            $(this).hide();
-        });
-    </script>
-    <script>
-        $('#ytlink').keydown(function (e) {
-            var keyCode = (e.keyCode ? e.keyCode : e.which);
-            if (keyCode == 13) {
-                $('#thumbdloadbtn').trigger('click');
-            }
-        });
-    </script>
-    <script>
-        $("#preview div").hide();
-        $("#preview");
-    </script>
-
-    <script>
-        var realImage = document.getElementById('thumbnailpreview');
-        var loadingImage = document.getElementById('loadingImage');
-        loadingImage.style.display = 'inline';
-        realImage.style.display = 'none';
-
-        // Create new image
-        var imgPreloader = new Image();
-        // define onload (= image loaded)
-        imgPreloader.onload = function () {
-            realImage.src = imgPreloader.src;
-            realImage.style.display = 'inline';
-            loadingImage.style.display = 'none';
-        };
-        // set image source
-        imgPreloader.src = 'images/placeholder.gif';
-    </script>
+    
+   
     
   </center>  
 </body>
