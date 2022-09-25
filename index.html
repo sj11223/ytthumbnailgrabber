@@ -61,6 +61,15 @@ function myFunction() {
   if (document.getElementById('ytlink').value == ""){
     alert("ENTER A YOUTUBE VIDEO URL");
   }
+  else if (sentence.includes('youtu.be')){
+    var result = sentence.replace("https://youtu.be/", "https://www.youtube.com/watch?v=");
+    document.getElementById('ytlink').value = result;
+    var value1 = document.getElementById("ytlink").value;
+    const str = value1;
+    const after_ = str.substring(str.indexOf('=') + 1);
+    const valfinal = "https://www.youtubethumbnaildownloaderonline.com/?id=" + after_;
+    window.open(valfinal,'_blank');
+  }
   else {
   var value = document.getElementById("ytlink").value;
    const str = value;
