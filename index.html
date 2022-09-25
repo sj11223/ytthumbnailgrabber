@@ -58,9 +58,11 @@
 <script>
 function myFunction() {
 
+  var sentence = document.getElementById('ytlink').value;
+
   if (document.getElementById('ytlink').value == ""){
-    alert("ENTER A YOUTUBE VIDEO URL");
-  }
+    alert("ENTER YOUTUBE VIDEO URL");
+  } 
   else if (sentence.includes('youtu.be')){
     var result = sentence.replace("https://youtu.be/", "https://www.youtube.com/watch?v=");
     document.getElementById('ytlink').value = result;
